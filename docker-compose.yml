@@ -5,7 +5,7 @@ services:
     platform: linux/amd64
     image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
     container_name: namenode
-    restart: always
+    # restart: always
     ports:
       - 9870:9870
       - 9000:9000
@@ -27,6 +27,7 @@ services:
       SERVICE_PRECONDITION: "namenode:9870"
     env_file:
       - ./hadoop.env
+
 
 volumes:
   hadoop_namenode:
