@@ -1,3 +1,5 @@
+# Docker-compose YML
+
 This docker-compose.yml file defines four services: namenode, datanode, resourcemanager, and nodemanager.
 
 The namenode service runs the HDFS NameNode daemon, which manages the HDFS file system metadata. It maps the namenode container's /hadoop/dfs/name directory to a Docker volume called hadoop_namenode. The ports section publishes the NameNode's web interface on port 9870.
