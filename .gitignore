@@ -1,2 +1,4 @@
 resources/*
 *.xml
+
+.DS_Store
