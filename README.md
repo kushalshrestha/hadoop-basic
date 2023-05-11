@@ -2,9 +2,12 @@
 
 This project is about accessing Hadoop's file system using Java Interface i.e programmatically. 
 
-CSV DataSet Considered : https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store
 
+## Resources
+* CSV DataSet : https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store
+* JAR File Location: ./hdfs/target/hdfs-1.0-SNAPSHOT.jar
 
+## Commands
 Build an image
 ```
 docker build
