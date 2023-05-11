@@ -1,5 +1,7 @@
 # HDFS (Hadoop Distributed File System)
 
+This project is about accessing Hadoop's file system using Java Interface i.e programmatically. 
+
 CSV DataSet Considered : https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store
 
 
